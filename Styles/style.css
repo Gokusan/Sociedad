@@ -1,0 +1,111 @@
+body{
+	background: radial-gradient(200px 30px, rgba(255,0,0,1), #000);
+	background:-moz-radial-gradient(200px 30px, rgba(255,0,0,1), #000);
+	background:-ms-radial-gradient(200px 30px, rgba(255,0,0,1), #000);
+	background:-o-radial-gradient(200px 30px, rgba(255,0,0,1), #000);
+	background:-webkit-radial-gradient(200px 30px, rgba(255,0,0,1), #000);
+	color:white;
+	font-family: "Activa Th",Arial:;
+	font-size:18px;
+}
+header{
+	background:white;
+	border-radius:20px;
+	height:150px;
+}
+h1{
+	text-shadow:5px 8px 5px black;
+	font-size:1.5em;
+}
+aside{
+	color:black;
+	float: left;
+	margin: 5px auto;
+}
+#body{
+	width:90%;
+	margin: 10px auto;
+}
+#uno{
+width:10%;
+/*height:150px;*/
+}
+#dos{
+width:53%;
+/*height:150px;*/
+}
+#tres{
+	background:white;
+width:33%;
+/*height:150px;*/
+}
+#menu1{
+	background:rgba(0,0,0,0.5);
+	border-radius:5px;
+	font-size:1.5em;
+	padding: 1px 0px -1px 0px;
+}
+#menu1 ul li{
+	display: inline;
+}
+#publicidad{
+	background:white;
+	border-radius:10px;
+	color:black;
+	height:310px;
+	display: block;
+	/*float:right;*/
+	width:99%;
+}
+#mapa{
+	background:orange;
+	float:left;
+	height:300px;
+	margin: 5px 0px 0px 30px;
+	width:30%;
+}
+#slide{
+	background: yellow;
+	float: right;
+	margin: 5px 15px 0px 15px;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter:alpha(opacity=5);
+	width:65%;
+}
+#contenido{
+	background:gray;
+	border-radius:20px;
+	display: block;
+	height:310px;
+	margin-top: 10px;
+	width:100%;
+
+}
+#menu2{
+	background:olive;
+	float: left;
+	margin: 15px 0px 0px 15px;
+	width:13%;
+}
+#empresas{
+	float: right;
+	margin: 15px 0px 0px 15px;
+	width:85%;
+}
+.logo{
+	width:100px;
+	height:100px;
+}
+.empresa{
+	background:red;
+	position: relative;
+	height:100px;
+	margin: 5px 5px 5px 5px;
+	width:25%;
+}
+.imgemp{
+	float: left;
+	height:50px;
+	width:50px;
+}
